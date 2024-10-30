@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#e66465, #9198e5);
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(253, 178, 191),rgb(94, 114, 94)) ;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    
+}
+.first span{
+    position: absolute;
+    top:2.6rem;
+    left: 14rem;
+    cursor: pointer;
+}
+p{
+    background-color:#ffffff;
+    display: inline-block;
+    width: 3.5rem;
+    font-size: 0.6rem;
+    color: rgb(0, 0, 0);
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    top:1.6rem;
+    left: 16.3rem;
+    display: none;
+    font-weight: 700;
+}
+.first  h2 {
+    width: 90%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+    
+}
+.first .ipass{
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    padding-inline: 0.3rem;
+    border: none;
+    outline: none;
+    touch-action: none;
+    position: relative;
+    background-color: aliceblue;
+}
+.changer{
+    margin-top: 0.5rem;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:5rem;
+    width: 100%;
+    
+    
+}
+.third{
+    display: flex;
+    flex-direction: column;
+}
+.letter{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   gap:5rem;
+   margin-top: 0.5rem;
+}
+.btn{
+    margin-top: 0.5rem;
+    width: 100%;
+}
+.btn button{
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    border: none;
+    width: 100%;
+    height: 2rem;
+    background:linear-gradient(pink, rgb(139, 139, 184));
+    cursor: pointer;
+
+}
+.btn button:hover{
+    background-color: rgb(160, 160, 160);
+}
